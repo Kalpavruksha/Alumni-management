@@ -1,0 +1,453 @@
+# ===========================================
+# Alumni Management System - .gitignore
+# ===========================================
+
+# ===========================================
+# Environment Variables & Configuration
+# ===========================================
+
+# Environment files (contains sensitive data)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+.env.*.local
+
+# Configuration files with sensitive data
+config/local.properties
+config/production.properties
+config/staging.properties
+config/database.local.properties
+config/database.production.properties
+config/application.local.yml
+config/application.production.yml
+
+# Database credentials and connection strings
+database.properties
+database.local.properties
+database.production.properties
+db.properties
+db.local.properties
+db.production.properties
+
+# API keys and secrets
+secrets.properties
+api-keys.properties
+credentials.properties
+*.key
+*.pem
+*.p12
+*.pfx
+
+# ===========================================
+# Java & Maven
+# ===========================================
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ===========================================
+# IDE & Editor Files
+# ===========================================
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===========================================
+# Operating System Files
+# ===========================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===========================================
+# Build & Deployment
+# ===========================================
+
+# Build outputs
+build/
+out/
+dist/
+bin/
+
+# Deployment artifacts
+*.war
+*.ear
+*.jar
+deploy/
+deployment/
+
+# Tomcat specific
+webapps/
+work/
+temp/
+logs/
+conf/server.xml
+conf/tomcat-users.xml
+
+# ===========================================
+# Database & Data Files
+# ===========================================
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.accdb
+
+# Data dumps
+*.sql
+*.dump
+*.backup
+*.bak
+
+# CSV files with sensitive data
+data/
+exports/
+imports/
+*.csv
+*.xlsx
+*.xls
+
+# ===========================================
+# Logs & Temporary Files
+# ===========================================
+
+# Log files
+logs/
+*.log
+*.log.*
+*.out
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# ===========================================
+# Node.js (if using any Node tools)
+# ===========================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.test
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# ===========================================
+# Testing & Quality Assurance
+# ===========================================
+
+# Test reports
+test-results/
+test-reports/
+coverage/
+.nyc_output/
+junit.xml
+test-results.xml
+
+# SonarQube
+.sonar/
+sonar-project.properties
+
+# ===========================================
+# Documentation & Reports
+# ===========================================
+
+# Generated documentation
+docs/generated/
+javadoc/
+api-docs/
+
+# Reports
+reports/
+*.report
+*.html
+
+# ===========================================
+# Security & Compliance
+# ===========================================
+
+# Security scan results
+security-scan-results/
+vulnerability-reports/
+*.sarif
+
+# Compliance reports
+compliance/
+audit-reports/
+
+# ===========================================
+# Custom Project Files
+# ===========================================
+
+# Project specific files
+setup_tomcat.bat
+deploy_simple.bat
+deploy.bat
+redeploy.bat
+run_desktop.bat
+run_web.bat
+run.bat
+test_html.bat
+test_jsp.bat
+test_tomcat_root.bat
+test_web.bat
+change_tomcat_port.bat
+check_jakarta_compatibility.bat
+check_tomcat.bat
+install_tomcat_manual.bat
+fix_url_paths.bat
+fix_webapp.bat
+
+# ===========================================
+# Backup & Archive Files
+# ===========================================
+
+# Backup files
+*.backup
+*.bak
+*.old
+*.orig
+*.save
+*.swp
+*.swo
+*~
+
+# Archive files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ===========================================
+# Notes & Documentation
+# ===========================================
+
+# Personal notes
+NOTES.md
+TODO.md
+CHANGELOG.md
+CONTRIBUTING.md
+
+# ===========================================
+# End of .gitignore
+# ===========================================
