@@ -106,3 +106,4 @@ public class Alumni {
 // add getters and setters
 // override toString method
 // add getters and setters
+// add getters and setters
