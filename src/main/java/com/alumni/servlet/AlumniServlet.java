@@ -164,4 +164,4 @@ public class AlumniServlet extends HttpServlet {
         }
         response.sendRedirect(request.getContextPath() + "/alumni");
     }
-} 
+} // improve response handling
