@@ -103,3 +103,4 @@ public class Alumni {
     }
 } // improve model validation
 // improve model validation
+// add getters and setters
