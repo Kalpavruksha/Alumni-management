@@ -53,4 +53,4 @@ public class DatabaseUtil {
             }
         }
     }
-} 
+} // improve exception handling
