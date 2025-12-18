@@ -191,3 +191,4 @@ public class AlumniDAO {
         return alumni;
     }
 } // add update alumni details
+// add basic exception handling
