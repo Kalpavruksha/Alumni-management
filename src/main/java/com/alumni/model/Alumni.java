@@ -105,3 +105,4 @@ public class Alumni {
 // improve model validation
 // add getters and setters
 // override toString method
+// add getters and setters
