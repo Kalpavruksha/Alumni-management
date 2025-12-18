@@ -307,3 +307,4 @@ public class AlumniManagementUI extends JFrame {
 // connect ui with backend
 // cleanup ui code
 // cleanup ui code
+// improve ui responsiveness
