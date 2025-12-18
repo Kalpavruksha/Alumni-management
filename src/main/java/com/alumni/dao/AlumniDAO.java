@@ -197,3 +197,4 @@ public class AlumniDAO {
 // add alumni fetch by id
 // add basic exception handling
 // implement list all alumni
+// add basic exception handling
