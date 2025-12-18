@@ -194,3 +194,4 @@ public class AlumniDAO {
 // add basic exception handling
 // add delete alumni record
 // add delete alumni record
+// add alumni fetch by id
