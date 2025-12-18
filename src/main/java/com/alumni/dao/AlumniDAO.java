@@ -193,3 +193,4 @@ public class AlumniDAO {
 } // add update alumni details
 // add basic exception handling
 // add delete alumni record
+// add delete alumni record
