@@ -101,4 +101,4 @@ public class Alumni {
     public void setAddress(String address) {
         this.address = address;
     }
-} 
+} // improve model validation
