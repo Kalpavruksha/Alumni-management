@@ -169,3 +169,4 @@ public class AlumniServlet extends HttpServlet {
 // add request validation
 // improve response handling
 // improve response handling
+// handle alumni delete request
