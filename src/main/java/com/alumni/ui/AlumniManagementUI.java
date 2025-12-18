@@ -303,4 +303,4 @@ public class AlumniManagementUI extends JFrame {
             new AlumniManagementUI().setVisible(true);
         });
     }
-} 
+} // improve ui responsiveness
