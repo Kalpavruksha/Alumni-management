@@ -112,6 +112,7 @@ public class AlumniServlet extends HttpServlet {
         request.setAttribute("alumni", alumni);
         request.getRequestDispatcher("/WEB-INF/views/edit-alumni.jsp").forward(request, response);
     }
+// TODO: add input validation for alumni form
 
     private void addAlumni(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
