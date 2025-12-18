@@ -190,4 +190,4 @@ public class AlumniDAO {
         alumni.setAddress(rs.getString("address"));
         return alumni;
     }
-} 
+} // add update alumni details
